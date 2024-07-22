@@ -60,3 +60,6 @@ y<-calcNormFactors(y)
 y<-estimateCommonDisp(y)
 y<estimateTagwiseDisp(y)
 y
+
+#Perform DEA for entire dataset
+y<-exactTest(y)
